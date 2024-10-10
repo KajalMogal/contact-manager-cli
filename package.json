@@ -1,0 +1,25 @@
+{
+  "name": "contact-manager-cli",
+  "version": "1.0.0",
+  "description": "A command line application that enables users to manage their personal contact",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KajalMogal/contact-manager-cli.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Kajal Mogal",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/KajalMogal/contact-manager-cli/issues"
+  },
+  "homepage": "https://github.com/KajalMogal/contact-manager-cli#readme",
+  "bin": {
+    "contact-manager-system": "./index.js"
+  }
+}
