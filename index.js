@@ -40,7 +40,7 @@ function deleteContactDetails(name) {
     console.log(`Contact ${name} deleted.`);
 }
 
-// Search 
+// Search  
 function searchContact(query) {
     const contacts = loadContactDetails();
     const results = contacts.filter(contact =>
@@ -56,7 +56,7 @@ function searchContact(query) {
     }
 }
 
-// Update a contact information
+// Update a contact details
 function updateContactDetails(id, name, phone, address, email) {
     const contacts = loadContactDetails();
     const contact = contacts.find(contact => contact.id === parseInt(id));
@@ -72,7 +72,7 @@ function updateContactDetails(id, name, phone, address, email) {
     }
 }
 
-// List all contacts 
+// show all contacts 
 function listContacts() {
     const contacts = loadContactDetails();
     if (contacts.length > 0) {
